@@ -35,6 +35,8 @@ if($urlVariable[URL_VAR_NUM]       == 'contact-us'){
   require_once 'wedding-page.php';
 }else if($urlVariable[URL_VAR_NUM] == '' || $urlVariable[URL_VAR_NUM] == 'home'){ 
    require_once 'home-page.php';
+}else if($urlVariable[URL_VAR_NUM] == 'privacy-policy'){
+  require_once "privacy.php";
 }else{
   require_once "page404.php";
 } 

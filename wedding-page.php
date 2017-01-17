@@ -10,7 +10,7 @@
 					</div>
 					<div class="span5 hs_breadcrumb_part hs_left">
 						<ul class="hs_breadcrumb">
-							<li><a href="index.html">Home</a></li>
+							<li><a href="<?php echo SITE_URL;?>">Home</a></li>
 							<li><strong> Services</strong></li>
 						</ul>
 					</div>
@@ -32,7 +32,7 @@
 				<table style="display: inline-table;" border="0" cellpadding="0" cellspacing="0" width="100%">
 					<!-- fwtable fwsrc="Untitled" fwpage="Page 1" fwbase="Page 1.gif" fwstyle="Dreamweaver" fwdocid = "2075467132" fwnested="0" -->
 					<tbody>
-						<tr>
+						<!--<tr>
 							<td><img src="public/images/wedding/spacer.gif" width="143" height="1" border="0" alt="Spacer"></td>
 							<td><img src="public/images/wedding/spacer.gif" width="79" height="1" border="0" alt="Spacer"></td>
 							<td><img src="public/images/wedding/spacer.gif" width="124" height="1" border="0" alt="Spacer"></td>
@@ -50,7 +50,7 @@
 							<td><img src="public/images/wedding/spacer.gif" width="45" height="1" border="0" alt="Spacer"></td>
 							<td><img src="public/images/wedding/spacer.gif" width="346" height="1" border="0" alt="Spacer"></td>
 							<td><img src="public/images/wedding/spacer.gif" width="1" height="1" border="0" alt="Spacer"></td>
-						</tr>
+						</tr>-->
 						<tr>
 							<td colspan="16"><img name="Page1_r1_c1_s1" src="public/images/wedding/Page 1_r1_c1_s1.gif" width="100%" height="100" border="0" id="Page1_r1_c1_s1"
 									alt="Wedding-Img"></td>

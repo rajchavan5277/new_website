@@ -5,7 +5,7 @@
 <div class="row-fluid">
   <div class="span12">
     <div class="span12 hs_left hs_heading_part"> 
-		<img src="<?php IMAGE_PATH;?>/cust-img/seprator_edited.png" alt="seprator"/> </div>
+		<img src="<?php echo IMAGE_PATH;?>/cust-img/seprator_edited.png" alt="seprator"/> </div>
     <div class="span12 hs_left">
       <div class="span7 hs_inner_heading wow fadeInDown">
         <h1> About </h1>

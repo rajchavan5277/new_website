@@ -36,7 +36,7 @@
 			<div class="span12">
 				<div class="span12 text-center"> <img src="public/images/pos/footer_shape.png" alt="shape" /> </div>
 				<div class="span6 offset3 hs_reserved text-center"> Copyright © NAK Events, 2017. All Rights Reserved. </div>
-				<div class="span6 offset3 text-center privacy-link"> <a href="privacy.html"> Privacy Policy</a> </div>
+				<div class="span6 offset3 text-center privacy-link"> <a href="<?php echo SITE_URL;?>privacy-policy"> Privacy Policy</a> </div>
 			</div>
 		</div>
 

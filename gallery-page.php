@@ -14,7 +14,7 @@
 					</div>
 					<div class="span5 hs_breadcrumb_part hs_left">
 						<ul class="hs_breadcrumb">
-							<li><a href="<?php SITE_URL;?>">Home</a></li>
+							<li><a href="<?php echo SITE_URL;?>">Home</a></li>
 							<li><strong> gallery</strong></li>
 						</ul>
 					</div>

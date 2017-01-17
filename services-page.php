@@ -8,7 +8,7 @@
       <div class="span7 hs_inner_heading wow fadeInDown">
         <h1> Services For Satisfaction </h1>
       </div>
-      <div class="span5 hs_breadcrumb_part hs_left"><ul class="hs_breadcrumb"><li><a href="index.html">Home</a></li><li><strong> Services</strong></li></ul></div>
+      <div class="span5 hs_breadcrumb_part hs_left"><ul class="hs_breadcrumb"><li><a href="<?php echo SITE_URL;?>">Home</a></li><li><strong> Services</strong></li></ul></div>
     </div>
     <div class="span12 hs_left hs_heading_part"> 
       <img src="public/images/cust-img/seprator_edited.png" alt="seprator"/> 
