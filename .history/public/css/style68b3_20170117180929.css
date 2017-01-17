@@ -694,7 +694,7 @@ border-image: url("../images/frame.svg") 8% stretch stretch;
 	z-index: -1!important
 }
 .hs_port_thumb {
-	background: url(../images/pos/port_thumb_frame.png) no-repeat;
+	background: url(../images/cust-img/port_thumb_frame.png) no-repeat;
 	background-size:100%;
 	margin-bottom: 15px;
 	position:relative;

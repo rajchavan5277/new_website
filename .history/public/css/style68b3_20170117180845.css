@@ -694,7 +694,7 @@ border-image: url("../images/frame.svg") 8% stretch stretch;
 	z-index: -1!important
 }
 .hs_port_thumb {
-	background: url(../images/pos/port_thumb_frame.png) no-repeat;
+	background: url(../images/cust-img/port_thumb_frame.png) no-repeat;
 	background-size:100%;
 	margin-bottom: 15px;
 	position:relative;
@@ -1427,7 +1427,7 @@ display:inline-block;
 	margin-top: 25px
 }
 .hs_comment_input {
-	background: url(../images/pos/input_name.png) no-repeat;
+	background: url(../images/cust-img/input_name.png) no-repeat;
 	background-size: 100% 100%;
 	height: 87px !important;
 	outline: 0;
@@ -1437,7 +1437,7 @@ display:inline-block;
 	font-family: 'Unkempt', cursive;
 } 
 .hs_blog_comment {
-	background: url(../images/pos/Comments.png) no-repeat;
+	background: url(../images/cust-img/Comments.png) no-repeat;
 	background-size: 100% 100%;
 	height: 185px!important;
 	outline: 0;
@@ -1448,7 +1448,7 @@ display:inline-block;
 	font-family: 'Unkempt', cursive;
 }  
 #hs_send_btn {
-	background: url(../images/pos/send.png) no-repeat;
+	background: url(../images/cust-img/send.png) no-repeat;
 	background-size: 100% 100%;
 	font-size: 20px;
 	color: #000;
