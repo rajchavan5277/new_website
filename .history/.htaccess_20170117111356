@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+  DirectoryIndex index.php
+  RewriteEngine on
+  RewriteBase /new-2_new/
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.+)$ index.php?cmd=$1  [QSA,L]
+</IfModule>

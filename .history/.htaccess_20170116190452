@@ -1,0 +1,8 @@
+<IfModule mode_rewrite.c>
+  RewriteEngine on
+  RewriteBase /var/www/html/new-2_new/
+  RewriteRule ^index\.php$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ./new-2_new/index.php [L] 
+</ifModule>

@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+  DirectoryIndex index.php
+  RewriteEngine on
+  RewriteBase /new-2_new/
+
+ # Removes index.php from ExpressionEngine URLs
+        RewriteCond %{THE_REQUEST} ^GET.*index\.php [NC]
+        RewriteCond %{REQUEST_URI} !/system/.* [NC]
+        RewriteRule (.*?)index\.php/*(.*) /$1$2 [R=301,NE,L]
+        
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.+)$ index.php?cmd=$1  [QSA,L]
+</IfModule>
